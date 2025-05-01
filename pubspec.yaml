@@ -8,7 +8,10 @@ environment:
   flutter: ">=2.0.0"
 
 dependencies:
-  appwrite: ^12.0.0
+  appwrite: 
+    git:
+      url: https://github.com/djdheeraj5701/appwrite-sdk-for-flutter.git
+      ref: main
   flutter:
     sdk: flutter
     
